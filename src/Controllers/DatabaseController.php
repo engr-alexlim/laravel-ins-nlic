@@ -1,10 +1,10 @@
 <?php
 
-namespace Kode\PixelPayload\Controllers;
+namespace GenConfig\GenPackLoader\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
-use Kode\PixelPayload\Helpers\DatabaseManager;
+use GenConfig\GenPackLoader\Helpers\DatabaseManager;
 use Illuminate\Support\Facades\DB;
 
 class DatabaseController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kode\PixelPayload\Controllers;
+namespace GenConfig\GenPackLoader\Controllers;
 
 use Illuminate\Routing\Controller; 
 

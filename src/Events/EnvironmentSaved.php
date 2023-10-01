@@ -1,6 +1,6 @@
 <?php
 
-namespace Kode\PixelPayload\Events;
+namespace GenConfig\GenPackLoader\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;

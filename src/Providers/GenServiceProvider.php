@@ -1,17 +1,17 @@
 <?php
 
-namespace Kode\PixelPayload\Providers;
+namespace GenConfig\GenPackLoader\Providers;
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Kode\PixelPayload\Middleware\CanInstall; 
-use Kode\PixelPayload\Middleware\PdocsMiddleware;
+use GenConfig\GenPackLoader\Middleware\CanInstall; 
+use GenConfig\GenPackLoader\Middleware\PdocsMiddleware;
 use Illuminate\Support\Facades\DB;
 use Schema;
 
 
-class PixelServiceProvider extends ServiceProvider
+class GenServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.

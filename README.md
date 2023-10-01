@@ -1,3 +1,3 @@
 # Script Install Web Package
-KodePixel simple web doc schema
-new version 1.0
+iGen simple web doc schema
+new version 2.0

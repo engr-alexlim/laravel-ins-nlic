@@ -24,7 +24,7 @@ if (! function_exists('isActive')) {
     function processURL($dataArray){
         $ch = curl_init(); 
         $data = http_build_query($dataArray);
-        $postingData = strDec("aHR0cHM6Ly92ZXJpZnkua29kZXBpeGVsLmNvbQ==")."?".$data;
+        $postingData = strDec(config('requirements.core.verify'))."?".$data;
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
@@ -42,7 +42,7 @@ if (! function_exists('isActive')) {
             strDec('c29mdHdhcmVfaWQ=') => config('requirements.script.p_key')
         ];
         $data = http_build_query($dataArray);
-        $postingData = strDec("aHR0cHM6Ly92ZXJpZnkua29kZXBpeGVsLmNvbQ==").'?'.$data; 
+        $postingData = strDec(config('requirements.core.verify')).'?'.$data; 
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);

@@ -1,11 +1,11 @@
 {
-    "name": "kodepixel/phpscript-installer",
-    "description": "Simple Laravel Installer Package by KodePixel",
+    "name": "genpack/phpscript-ins",
+    "description": "Simple Laravel Installer Package by iGEN",
     "license": "MIT",
     "authors": [
         {
-            "name": "Rup Deb",
-            "email": "rup@kodepixel.com"
+            "name": "Team iGEN",
+            "email": "info@igensolutionsltd.com"
         } 
     ],
     "credit": [
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kode\\PixelPayload\\": "src/"
+            "GenConfig\\GenPackLoader\\": "src/"
         },
         "files": [
             "src/Helpers/functions.php"
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kode\\PixelPayload\\Providers\\PixelServiceProvider"
+                "GenConfig\\GenPackLoader\\Providers\\GenServiceProvider"
             ]
         }
     },

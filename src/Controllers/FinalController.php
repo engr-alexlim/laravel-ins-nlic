@@ -1,21 +1,21 @@
 <?php
 
-namespace Kode\PixelPayload\Controllers;
+namespace GenConfig\GenPackLoader\Controllers;
 
 use Illuminate\Routing\Controller;
-use Kode\PixelPayload\Events\LaravelInstallerFinished;
-use Kode\PixelPayload\Helpers\EnvironmentManager;
-use Kode\PixelPayload\Helpers\FinalInstallManager;
-use Kode\PixelPayload\Helpers\InstalledFileManager;
+use GenConfig\GenPackLoader\Events\LaravelInstallerFinished;
+use GenConfig\GenPackLoader\Helpers\EnvironmentManager;
+use GenConfig\GenPackLoader\Helpers\FinalInstallManager;
+use GenConfig\GenPackLoader\Helpers\InstalledFileManager;
 
 class FinalController extends Controller
 {
     /**
      * Update installed file and display finished view.
      *
-     * @param \Kode\PixelPayload\\Helpers\InstalledFileManager $fileManager
-     * @param \Kode\PixelPayload\\Helpers\FinalInstallManager $finalInstall
-     * @param \Kode\PixelPayload\\Helpers\EnvironmentManager $environment
+     * @param \GenConfig\GenPackLoader\\Helpers\InstalledFileManager $fileManager
+     * @param \GenConfig\GenPackLoader\\Helpers\FinalInstallManager $finalInstall
+     * @param \GenConfig\GenPackLoader\\Helpers\EnvironmentManager $environment
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function finish(InstalledFileManager $fileManager, FinalInstallManager $finalInstall, EnvironmentManager $environment)

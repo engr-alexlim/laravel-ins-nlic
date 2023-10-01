@@ -14,11 +14,12 @@ return [
     'core' => [
         'appVersion' => '1.0',
         'minPhpVersion' => '8.1',
-        'dbTbl' => 'Z2VuZXJhbF9zZXR0aW5ncw==',
-        'cacheFile' => 'LktvZGVfUGl4ZWw=',
+        'verify' => 'aHR0cHM6Ly9saWNlbnNlLmlnZW5zb2x1dGlvbnNsdGQuY29tLw==',
+        'dbTbl' => 'c2V0dGluZ3M=',
+        'cacheFile' => 'LmlnZW5fbGxj',
     ],
   	'script' => [
-    	'p_key' => 'PXL0001=='
+    	'p_key' => 'LNKHUB1023=='
     ],
     'final' => [
         'key' => true,

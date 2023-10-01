@@ -1,14 +1,14 @@
 <?php
 
-namespace Kode\PixelPayload\Controllers;
+namespace GenConfig\GenPackLoader\Controllers;
 
 use Illuminate\Routing\Controller;
-use Kode\PixelPayload\Helpers\DatabaseManager;
-use Kode\PixelPayload\Helpers\InstalledFileManager;
+use GenConfig\GenPackLoader\Helpers\DatabaseManager;
+use GenConfig\GenPackLoader\Helpers\InstalledFileManager;
 
 class UpdateController extends Controller
 {
-    use \Kode\PixelPayload\Helpers\MigrationsHelper;
+    use \GenConfig\GenPackLoader\Helpers\MigrationsHelper;
 
     /**
      * Display the updater welcome page.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Kode\PixelPayload\Controllers;
+namespace GenConfig\GenPackLoader\Controllers;
 
 use Illuminate\Routing\Controller;
-use Kode\PixelPayload\Helpers\PermissionsChecker;
+use GenConfig\GenPackLoader\Helpers\PermissionsChecker;
 
 class PermissionsController extends Controller
 {

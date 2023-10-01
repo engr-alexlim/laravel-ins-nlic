@@ -1,6 +1,6 @@
 <?php
 
-namespace Kode\PixelPayload\Helpers;
+namespace GenConfig\GenPackLoader\Helpers;
 
 class PermissionsChecker
 {

@@ -2,14 +2,14 @@
 
 
 
-Route::group(['prefix' => 'install', 'as' => 'LaravelInstaller::', 'namespace' => 'Kode\PixelPayload\Controllers', 'middleware' => ['web','install']], function () {
+Route::group(['prefix' => 'install', 'as' => 'LaravelInstaller::', 'namespace' => 'GenConfig\GenPackLoader\Controllers', 'middleware' => ['web','install']], function () {
 Route::get('done', [
     'as' => 'done',
     'uses' => 'WelcomeController@installedDone',
 ]);
 });
 
-Route::group(['prefix' => 'install', 'as' => 'LaravelInstaller::', 'namespace' => 'Kode\PixelPayload\Controllers', 'middleware' => ['web','install']], function () {
+Route::group(['prefix' => 'install', 'as' => 'LaravelInstaller::', 'namespace' => 'GenConfig\GenPackLoader\Controllers', 'middleware' => ['web','install']], function () {
     Route::get('/', [
         'as' => 'welcome',
         'uses' => 'WelcomeController@welcome',
