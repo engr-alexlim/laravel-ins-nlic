@@ -1,0 +1,38 @@
+{
+    "name": "kodepixel/phpscript-installer",
+    "description": "Simple Laravel Installer Package by KodePixel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rup Deb",
+            "email": "rup@kodepixel.com"
+        } 
+    ],
+    "credit": [
+        {
+            "name": "RachidLaasri"
+        } 
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kode\\PixelPayload\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kode\\PixelPayload\\Providers\\PixelServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
